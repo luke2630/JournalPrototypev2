@@ -15,7 +15,10 @@ const year = new Date();
 const month = new Date();
 const date = new Date();
 const year2 = year.getFullYear();
-const month2 = month.getMonth();
+let month2 = month.getMonth();
 const date2 = date.getDate();
+
+month2 = month2 + 1;
+
 const actualDate = "Today's Date: "+ month2 + "/" + date2 + "/" + year2;
 document.getElementById("date").innerHTML = actualDate;
