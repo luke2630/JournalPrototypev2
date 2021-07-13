@@ -166,6 +166,46 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push_opacit
     margin-bottom:1%;
   }
 
+/*Flexbox attempt 1*/
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: none;
+  justify-content: center;
+}
+
+.flexContBox {
+  background-color: white;
+  width: 400px;
+  margin: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 3px solid rgb(128,0,0);
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.flexLink{
+  font-size: 14px;
+  color: black;
+  padding: 5px;
+  white-space: nowrap;
+  text-align: center;
+  text-decoration: none;
+}
+
+.flexContBox a:hover {
+  background-color:#d3d3d3;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.disclosure {
+  font-size: 15px;
+}
+
 /*For each article entry in the various columns*/
 .article {
   border:5px solid rgb(128,0,0);
@@ -175,7 +215,6 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push_opacit
   width: 80%;
   margin-left: 10%;
   margin-top: 2%;
-  float:left;
 }
 
 .titleMargin {
@@ -211,4 +250,62 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav_push_opacit
     width:100%;
     height:70px;
     background:#d3d3d3;
+}
+
+/*contact info styles*/
+.contact {
+  border: solid 3px rgb(128,0,0);
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 10px;
+  background-color: #d3d3d3;
+}
+
+.contactText {
+  margin-left: 5px;
+}
+
+input[type=submit] {
+  background-color:rgb(135,206,235);
+  border: none;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size:20px;
+}
+
+input {
+  width:100%
+}
+
+.submit {
+  width: 20%;
+}
+
+.inputText {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+  height: 30px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.center2 {
+  display: block;
+  margin: auto;
+  padding: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: #f1f1f1;
+  border: 3px solid #f1f1f1;
+  border-radius:15px;
 }
